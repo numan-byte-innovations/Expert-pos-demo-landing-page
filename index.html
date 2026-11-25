@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#14243e">
+  <meta name="description" content="Expert POS landing page design demo: business-specific POS, inventory, courier and reporting stories.">
+  <title>Expert POS — Landing Page Demo 02</title>
+  <link rel="preload" as="image" href="images/ecommerce-owner.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">মূল content-এ যান</a>
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Expert POS home"><img src="images/expertpos-logo.png" alt="Expert POS" width="542" height="96"></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#reviews" data-i18n="navReviews">Client Reviews</a>
+        <a href="#challenges" data-i18n="navChallenges">Challenges</a>
+        <a href="#approach" data-i18n="navApproach">Custom POS</a>
+        <a href="#industries" data-i18n="navIndustries">Industries</a>
+        <a href="#features" data-i18n="navFeatures">Features</a>
+      </nav>
+      <div class="header-actions">
+        <div class="language-switch" role="group" aria-label="Landing page language">
+          <button class="language-option is-active" type="button" data-lang="bn" aria-pressed="true">বাংলা + EN</button>
+          <button class="language-option" type="button" data-lang="en" aria-pressed="false">English</button>
+        </div>
+        <a class="header-cta" href="#contact" data-i18n="navDemo">Free Demo</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-roledescription="carousel" aria-label="Business solutions">
+      <div class="hero-media"><img id="heroImage" src="images/ecommerce-owner.png" alt="E-commerce owner in an order fulfilment studio" fetchpriority="high"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="shell hero-inner">
+        <div class="hero-content" id="heroContent">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span><span id="heroCategory">E-COMMERCE & FACEBOOK SELLERS</span></p>
+          <h1 id="heroTitle">Online order থেকে courier—সব এক workflow-তে।</h1>
+          <p class="hero-description" id="heroDescription">Facebook ও website-এর order বারবার লিখতে হয়? Expert POS-এ order save করেই courier booking এবং tracking record রাখুন।</p>
+          <figure class="hero-voice">
+            <blockquote id="heroQuote">আগে order আর courier panel আলাদা ছিল। এখন sale-এর সঙ্গে delivery status-ও এক জায়গায় দেখি।</blockquote>
+            <figcaption id="heroRole">E-commerce business owner</figcaption>
+            <small data-i18n="sampleSpeech">উদাহরণভিত্তিক বক্তব্য</small>
+          </figure>
+          <div class="hero-cta-row">
+            <a class="button button-light" href="#contact" data-i18n="heroDemo">Free Demo বুক করুন</a>
+            <a class="text-link text-link-light" href="#industries" data-i18n="heroExplore">Business solution দেখুন</a>
+          </div>
+        </div>
+      </div>
+      <div class="shell hero-controls">
+        <div class="slide-index"><strong id="slideCurrent">01</strong><span class="index-divider"></span><span>06</span></div>
+        <div class="slide-pills" id="slidePills" role="group" aria-label="Choose a business story"></div>
+        <div class="slide-buttons">
+          <button id="slidePrevious" type="button" aria-label="Previous business story" data-i18n="previous">আগেরটি</button>
+          <button id="slideAutoplay" type="button" aria-pressed="false">Pause</button>
+          <button id="slideNext" type="button" aria-label="Next business story" data-i18n="next">পরেরটি</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-section" id="intro" aria-labelledby="introTitle">
+      <div class="shell intro-layout">
+        <div class="intro-heading">
+          <p class="eyebrow eyebrow-dark" data-i18n="introEyebrow">MEET EXPERT POS</p>
+          <h2 id="introTitle" data-i18n="introTitle">বিক্রি থেকে হিসাব—সব এক জায়গায়।</h2>
+        </div>
+        <div class="intro-body">
+          <p data-i18n="introBody">Expert POS হলো Bangladesh-এর business-এর জন্য web-based POS system। Counter sale, branch-wise stock, online order, Steadfast/Pathao courier booking ও profit report একই connected workflow-তে থাকে।</p>
+          <div class="intro-capabilities" aria-label="Expert POS core capabilities"><span data-i18n="introCap1">Fast billing</span><span data-i18n="introCap2">Branch-wise stock</span><span data-i18n="introCap3">Courier booking</span></div>
+          <a href="#approach" class="intro-link" data-i18n="introCta">Expert POS কীভাবে কাজ করে দেখুন ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews" aria-labelledby="reviewsTitle">
+      <div class="shell reviews-layout">
+        <div class="reviews-heading">
+          <p class="eyebrow eyebrow-dark" data-i18n="reviewsEyebrow">CLIENT REVIEWS</p>
+          <h2 id="reviewsTitle" data-i18n="reviewsTitle">Business owner-দের কথায় প্রতিদিনের কাজ।</h2>
+          <p data-i18n="reviewsIntro">Hero-র বক্তব্যের সঙ্গে এই জায়গায় verified client review যোগ হবে। এখন layout বোঝাতে sample speech দেখানো হয়েছে।</p>
+          <span class="sample-badge" data-i18n="reviewsBadge">Sample copy · verified review নয়</span>
+        </div>
+        <div class="review-voices">
+          <figure class="review-voice review-voice-featured">
+            <span class="quote-glyph" aria-hidden="true">“</span>
+            <blockquote data-i18n="review1">আগে কোন পণ্য শেষ হয়ে যাচ্ছে, তা বুঝতেই অনেক সময় চলে যেত। এখন খুব সহজেই সব পণ্যের stock দেখতে পারি।</blockquote>
+            <figcaption data-i18n="review1Role">সুপার শপের মালিক</figcaption>
+          </figure>
+          <div class="review-pair">
+            <figure class="review-voice">
+              <blockquote data-i18n="review2">আগে প্রতিদিনের বিক্রির হিসাব বুঝতে অনেক সময় লাগত। এখন report দেখে ব্যবসার অবস্থা বুঝতে পারি।</blockquote>
+              <figcaption data-i18n="review2Role">ফ্যাশন ও বুটিক হাউসের নারী মালিক</figcaption>
+            </figure>
+            <figure class="review-voice">
+              <blockquote data-i18n="review3">আগে ব্যবসার বিভিন্ন হিসাব আলাদাভাবে রাখতে হতো। এখন Expert POS-এ অনেক কাজ এক জায়গা থেকে পরিচালনা করি।</blockquote>
+              <figcaption data-i18n="review3Role">রিটেইল দোকানের মালিক</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="shell clients-strip" aria-label="Client logos">
+        <p class="clients-label" data-i18n="clientsLabel">আমাদের সঙ্গে থাকা client-দের কয়েকটি পরিচয়</p>
+        <div class="client-logos">
+          <div class="client-logo"><img src="images/clients/one-app-life.png" alt="One App Life" loading="lazy"></div>
+          <div class="client-logo"><img src="images/clients/byte-innovation.jpeg" alt="Byte Innovation" loading="lazy"></div>
+          <div class="client-logo"><img src="images/clients/ten-sports.png" alt="Ten Sports BD" loading="lazy"></div>
+          <div class="client-logo"><img src="images/clients/wave-technology.jpg" alt="Wave Technology" loading="lazy"></div>
+          <div class="client-logo"><img src="images/clients/footwear-client.jpg" alt="Footwear client product image" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="challenge-section section" id="challenges" aria-labelledby="challengeTitle">
+      <div class="shell">
+        <div class="section-intro section-intro-wide">
+          <p class="eyebrow eyebrow-dark" data-i18n="challengeEyebrow">THE DAILY REALITY</p>
+          <h2 id="challengeTitle" data-i18n="challengeTitle">Business challenges-এর পাশে থাকুক একটি connected solution।</h2>
+          <p data-i18n="challengeIntro">Counter, stock, online order, supplier ও report—একটি ব্যবসার আলাদা কাজগুলো প্রতিদিন একসঙ্গে চলে।</p>
+        </div>
+        <div class="comparison">
+          <div class="comparison-side comparison-problem">
+            <div class="comparison-heading"><span class="comparison-index" aria-hidden="true">01 /</span><h3 data-i18n="challengeCol">Business Challenges</h3></div>
+            <ul>
+              <li data-i18n="challenge1">Order, sale আর stock-এর তথ্য আলাদা খাতায় ছড়িয়ে থাকে।</li>
+              <li data-i18n="challenge2">Counter-এ billing delay হলে queue বাড়ে।</li>
+              <li data-i18n="challenge3">Supplier dues ও customer history খুঁজতে সময় যায়।</li>
+              <li data-i18n="challenge4">প্রতিদিনের sales ও profit বোঝা কঠিন হয়।</li>
+            </ul>
+          </div>
+          <div class="comparison-side comparison-solution">
+            <div class="comparison-heading"><span class="comparison-index" aria-hidden="true">02 /</span><h3 data-i18n="solutionCol">Solutions in one place</h3></div>
+            <ul>
+              <li data-i18n="solution1">এক workflow-তে sale, stock ও order record রাখুন।</li>
+              <li data-i18n="solution2">POS billing ও barcode দিয়ে checkout এগিয়ে নিন।</li>
+              <li data-i18n="solution3">Purchase, dues ও customer ledger খুলুন দ্রুত।</li>
+              <li data-i18n="solution4">Dashboard ও report-এ ব্যবসার অবস্থা দেখুন।</li>
+            </ul>
+            <div class="comparison-foot"><p data-i18n="solutionPricing">আপনার business-এর প্রয়োজন অনুযায়ী plan ও pricing নিয়ে কথা বলুন।</p><a href="#contact" data-i18n="pricingLink">Pricing জানুন</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach-section section" id="approach" aria-labelledby="approachTitle">
+      <div class="shell approach-layout">
+        <div class="approach-copy">
+          <p class="eyebrow" data-i18n="approachEyebrow">BUILT AROUND YOUR WORKFLOW</p>
+          <h2 id="approachTitle" data-i18n="approachTitle">Business process যেমন, POS-ও তেমন।</h2>
+          <p data-i18n="approachIntro">প্রতিটি business-এর sale, stock ও service আলাদা। আমরা আপনার workflow বুঝে Expert POS-এর setup ও প্রয়োজনীয় custom development সাজাই।</p>
+          <div class="approach-steps">
+            <div><span data-i18n="approachStep1Label">Understand</span><p data-i18n="approachStep1">আপনার business process ও pain point শুনি।</p></div>
+            <div><span data-i18n="approachStep2Label">Shape</span><p data-i18n="approachStep2">প্রয়োজনীয় workflow ও feature map করি।</p></div>
+            <div><span data-i18n="approachStep3Label">Launch</span><p data-i18n="approachStep3">Team-কে নিয়ে বাস্তব কাজে সেটি চালু করি।</p></div>
+          </div>
+          <a class="button button-blue" href="#contact" data-i18n="approachCta">আপনার workflow নিয়ে কথা বলুন</a>
+        </div>
+        <div class="product-scene" aria-label="Expert POS product workflow preview with sample data">
+          <p class="product-note" data-i18n="uiDisclaimer">PRODUCT PREVIEW · SAMPLE DATA</p>
+          <div class="product-window">
+            <div class="product-topbar"><span class="product-topbrand"><span class="product-emblem">EP</span><strong>Expert POS</strong></span><span class="product-topbar-meta" data-i18n="productWorkspace">BUSINESS WORKSPACE</span><span class="product-user" aria-hidden="true">A</span></div>
+            <div class="product-shell">
+              <div class="product-sidebar" aria-hidden="true"><span class="product-side-active">POS</span><span>STK</span><span>WEB</span><span>RPT</span></div>
+              <div class="product-main">
+                <div class="product-head"><div><small data-i18n="productOverview">ONE CONNECTED WORKSPACE</small><h3 data-i18n="productFlow">Sale, stock আর delivery একই flow-তে।</h3></div></div>
+                <div class="product-tabs" role="tablist" aria-label="Sample Expert POS workflows">
+                  <button type="button" id="previewTabBilling" class="is-active" role="tab" aria-controls="previewPanelBilling" aria-selected="true" tabindex="0" data-preview-tab="billing" data-i18n="previewBilling">01 / Billing</button>
+                  <button type="button" id="previewTabStock" role="tab" aria-controls="previewPanelStock" aria-selected="false" tabindex="-1" data-preview-tab="stock" data-i18n="previewStock">02 / Stock</button>
+                  <button type="button" id="previewTabCourier" role="tab" aria-controls="previewPanelCourier" aria-selected="false" tabindex="-1" data-preview-tab="courier" data-i18n="previewCourier">03 / Courier</button>
+                </div>
+                <div class="product-panel is-active" id="previewPanelBilling" role="tabpanel" aria-labelledby="previewTabBilling" data-preview-panel="billing">
+                  <div class="preview-search"><span aria-hidden="true">⌕</span><span data-i18n="previewSearch">Product / SKU / barcode খুঁজুন</span><span class="preview-search-end">↵</span></div>
+                  <div class="preview-table" role="table" aria-label="Sample point of sale items"><div class="preview-table-head" role="row"><span role="columnheader" data-i18n="previewProduct">Product</span><span role="columnheader" data-i18n="previewQuantity">Qty</span><span role="columnheader" data-i18n="previewAmount">Amount</span></div><div class="preview-table-row" role="row"><span role="cell">Miniket Rice 5kg</span><span role="cell">1</span><span role="cell">৳ 420.00</span></div><div class="preview-table-row" role="row"><span role="cell">Soybean Oil 1L</span><span role="cell">2</span><span role="cell">৳ 380.00</span></div><div class="preview-table-row" role="row"><span role="cell">Potato 1.25kg</span><span role="cell">1.25</span><span role="cell">৳ 62.50</span></div></div>
+                  <div class="preview-total"><span data-i18n="previewPayable">Total payable</span><strong>৳ 862.50</strong></div>
+                  <div class="preview-panel-foot"><span data-i18n="previewBillNote">Sample sale · ৩টি product</span><span class="preview-chip" data-i18n="previewPayment">Cash / Split payment</span></div>
+                </div>
+                <div class="product-panel" id="previewPanelStock" role="tabpanel" aria-labelledby="previewTabStock" data-preview-panel="stock" hidden>
+                  <div class="preview-context"><span data-i18n="previewStockHeading">Stock by branch</span><span class="preview-chip" data-i18n="previewBranch">Dhaka main branch</span></div>
+                  <div class="preview-table" role="table" aria-label="Sample inventory items"><div class="preview-table-head" role="row"><span role="columnheader" data-i18n="previewProduct">Product</span><span role="columnheader" data-i18n="previewAvailable">Available</span><span role="columnheader" data-i18n="previewStatus">Status</span></div><div class="preview-table-row" role="row"><span role="cell">Miniket Rice 5kg</span><span role="cell">24</span><span role="cell" class="stock-good" data-i18n="previewInStock">In stock</span></div><div class="preview-table-row" role="row"><span role="cell">Soybean Oil 1L</span><span role="cell">9</span><span role="cell" class="stock-good" data-i18n="previewInStock">In stock</span></div><div class="preview-table-row" role="row"><span role="cell">Cotton Panjabi · Navy L</span><span role="cell">2</span><span role="cell" class="stock-low" data-i18n="previewLowStock">Low stock</span></div></div>
+                  <div class="preview-panel-foot"><span data-i18n="previewStockNote">প্রতিটি branch-এর stock দেখুন, শেষ হওয়ার আগেই ব্যবস্থা নিন।</span></div>
+                </div>
+                <div class="product-panel" id="previewPanelCourier" role="tabpanel" aria-labelledby="previewTabCourier" data-preview-panel="courier" hidden>
+                  <div class="preview-context"><span data-i18n="previewCourierHeading">Online order delivery</span><span class="preview-chip" data-i18n="previewSaved">Sale saved</span></div>
+                  <div class="preview-courier-flow"><div><span class="flow-number">01</span><strong data-i18n="previewOrder">Order recorded</strong><small data-i18n="previewOrderHint">Customer ও items</small></div><div><span class="flow-number">02</span><strong data-i18n="previewBooking">Pathao booked</strong><small data-i18n="previewBookingHint">একই sale-এর সঙ্গে</small></div><div><span class="flow-number">03</span><strong data-i18n="previewTracking">Tracking linked</strong><small data-i18n="previewTrackingHint">Follow-up-এর জন্য ready</small></div></div>
+                  <div class="preview-confirmation"><span aria-hidden="true">✓</span><span data-i18n="previewCourierNote">Booking ও tracking record একই order-এর সঙ্গে থাকে।</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="product-caption"><span class="caption-line" aria-hidden="true"></span><span data-i18n="productCaption">একটি sale-এর সঙ্গে পরের কাজগুলোও connected থাকে।</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="industries-section section" id="industries" aria-labelledby="industriesTitle">
+      <div class="shell">
+        <div class="section-intro industries-intro">
+          <div><p class="eyebrow eyebrow-dark" data-i18n="industriesEyebrow">WHO WE BUILD FOR</p><h2 id="industriesTitle" data-i18n="industriesTitle">প্রতিটি business-এর কাজ আলাদা। সমাধানও তেমন হওয়া উচিত।</h2></div>
+          <p data-i18n="industriesIntro">Business type বেছে দেখুন Expert POS-এর কোন workflow আপনার কাজে লাগতে পারে।</p>
+        </div>
+        <div class="industries-layout">
+          <div class="industry-list" id="industryList" role="group" aria-label="Business types"></div>
+          <div class="industry-feature">
+            <div class="industry-photo"><img id="industryImage" src="images/ecommerce-owner.png" alt="E-commerce order fulfilment studio" loading="lazy"><span class="industry-photo-label" id="industryPhotoLabel">E-COMMERCE</span></div>
+            <div class="industry-detail"><p id="industryDescription">Online order, courier booking ও tracking একই sale-এর সঙ্গে রাখুন।</p><a href="#contact" data-i18n="industryCta">এই business-এর demo দেখুন</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section section" id="features" aria-labelledby="featuresTitle">
+      <div class="shell features-layout">
+        <div class="features-intro"><p class="eyebrow eyebrow-dark" data-i18n="featuresEyebrow">THE CORE SYSTEM</p><h2 id="featuresTitle" data-i18n="featuresTitle">দৈনন্দিন business-এর জন্য প্রয়োজনীয় core features।</h2><p data-i18n="featuresIntro">Sale থেকে report—একটি connected view, যাতে ছোট কাজগুলোও হাতছাড়া না হয়।</p><a class="text-link" href="#contact" data-i18n="featuresCta">Full demo দেখুন</a></div>
+        <div class="feature-list">
+          <article><span class="feature-number" aria-hidden="true">01</span><div><h3 data-i18n="feature1Title">Fast POS billing</h3><p data-i18n="feature1Text">Barcode, split payment, cash register ও receipt-এর কাজ।</p></div></article>
+          <article><span class="feature-number" aria-hidden="true">02</span><div><h3 data-i18n="feature2Title">Inventory control</h3><p data-i18n="feature2Text">Branch-wise stock, low-stock alert ও transfer record।</p></div></article>
+          <article><span class="feature-number" aria-hidden="true">03</span><div><h3 data-i18n="feature3Title">Online order & courier</h3><p data-i18n="feature3Text">Order save-এর সঙ্গে Steadfast/Pathao booking ও tracking।</p></div></article>
+          <article><span class="feature-number" aria-hidden="true">04</span><div><h3 data-i18n="feature4Title">Purchase & supplier</h3><p data-i18n="feature4Text">Purchase, payment ও supplier dues-এর পরিষ্কার হিসাব।</p></div></article>
+          <article><span class="feature-number" aria-hidden="true">05</span><div><h3 data-i18n="feature5Title">Customer history</h3><p data-i18n="feature5Text">Customer ledger, dues, group ও reward points।</p></div></article>
+          <article><span class="feature-number" aria-hidden="true">06</span><div><h3 data-i18n="feature6Title">Reports & visibility</h3><p data-i18n="feature6Text">Sales, profit/loss, branch performance ও exportable reports।</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contactTitle">
+      <div class="shell contact-layout">
+        <div class="contact-intro">
+          <p class="eyebrow" data-i18n="contactEyebrow">START A CONVERSATION</p>
+          <h2 id="contactTitle" data-i18n="contactTitle">আপনার business-এর জন্য সঠিক setup দেখুন।</h2>
+          <p class="contact-lead" data-i18n="contactText">Free demo বা pricing জানতে আপনার business-এর তথ্য দিন। চাইলে সরাসরি call বা WhatsApp করুন।</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="contact-detail-index" aria-hidden="true">01</span>
+              <div><h3 data-i18n="contactCallLabel">সরাসরি কল করুন</h3><a href="tel:+8801721417203">01721-417203</a><span class="contact-separator"> · </span><a href="tel:+8801810128451">01810-128451</a></div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail-index" aria-hidden="true">02</span>
+              <div><h3>WhatsApp</h3><a href="https://wa.me/8801721417203" target="_blank" rel="noopener noreferrer">01721-417203</a></div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail-index" aria-hidden="true">03</span>
+              <div><h3>Email</h3><a href="mailto:info@expertpos.xyz">info@expertpos.xyz</a><br><a href="mailto:info@b-innovations.net">info@b-innovations.net</a></div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail-index" aria-hidden="true">04</span>
+              <div><h3 data-i18n="contactOfficeLabel">আমাদের office</h3><address data-i18n="contactAddress">Block H, Moar Banani 11, Ventura Iconia, Level 3, Holding 37 Road No. 11, Dhaka</address><a class="contact-map-link" href="https://www.google.com/maps?q=23.789953,90.408242" target="_blank" rel="noopener noreferrer" data-i18n="contactMapLink">Google Maps-এ দেখুন ↗</a></div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" action="https://wa.me/8801721417203" method="get" target="_blank" aria-labelledby="contactFormTitle">
+          <p class="contact-form-kicker" data-i18n="contactFormKicker">আপনার প্রয়োজন বলুন</p>
+          <h3 id="contactFormTitle" data-i18n="contactFormTitle">Free demo বা pricing request</h3>
+          <p class="contact-form-intro" data-i18n="contactFormIntro">কিছু তথ্য দিন, আমরা আপনার business-এর প্রয়োজন বুঝে কথা বলব।</p>
+          <div class="contact-form-grid">
+            <div class="contact-field contact-field-wide"><label for="contactName"><span data-i18n="contactNameLabel">Business / Owner Name</span> <span class="required-mark" aria-hidden="true">*</span></label><input id="contactName" name="name" type="text" autocomplete="name" required></div>
+            <div class="contact-field"><label for="contactPhone"><span data-i18n="contactPhoneLabel">Contact Number</span> <span class="required-mark" aria-hidden="true">*</span></label><input id="contactPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+            <div class="contact-field"><label for="contactEmail" data-i18n="contactEmailLabel">Email (optional)</label><input id="contactEmail" name="email" type="email" autocomplete="email"></div>
+            <div class="contact-field"><label for="contactBusiness"><span data-i18n="contactBusinessLabel">Business type</span> <span class="required-mark" aria-hidden="true">*</span></label><select id="contactBusiness" name="business" required><option value="" data-i18n="contactBusinessPlaceholder">Business type বেছে নিন</option><option value="ecommerce" data-i18n="businessEcommerce">E-commerce</option><option value="super-shop" data-i18n="businessSuperShop">Super Shop</option><option value="fashion" data-i18n="businessFashion">Fashion & Boutique</option><option value="restaurant" data-i18n="businessRestaurant">Restaurant</option><option value="electronics" data-i18n="businessElectronics">Electronics</option><option value="salon" data-i18n="businessSalon">Beauty Salon</option><option value="other" data-i18n="businessOther">অন্যান্য</option></select></div>
+            <div class="contact-field"><label for="contactIntent"><span data-i18n="contactIntentLabel">কী জানতে চান?</span> <span class="required-mark" aria-hidden="true">*</span></label><select id="contactIntent" name="intent" required><option value="" data-i18n="contactIntentPlaceholder">একটি option বেছে নিন</option><option value="demo" data-i18n="contactIntentDemo">Free demo</option><option value="pricing" data-i18n="contactIntentPricing">Pricing</option><option value="custom" data-i18n="contactIntentCustom">Custom POS</option></select></div>
+          </div>
+          <button class="button contact-submit" id="contactSubmit" type="submit" data-i18n="contactSubmit">WhatsApp-এ request খুলুন ↗</button>
+          <p class="contact-form-note" id="contactFormNote" role="status" aria-live="polite" data-i18n="contactFormNote">Button চাপলে WhatsApp-এ আপনার request খুলবে; পাঠানোর আগে দেখে নিতে পারবেন।</p>
+        </form>
+      </div>
+      <div class="shell office-map-wrap">
+        <div class="office-map-heading"><div><p class="eyebrow" data-i18n="contactVisitEyebrow">OUR LOCATION</p><h3 data-i18n="contactVisitTitle">ঢাকায় আমাদের Banani office।</h3></div><a href="https://www.google.com/maps?q=23.789953,90.408242" target="_blank" rel="noopener noreferrer" data-i18n="contactOpenMaps">Google Maps খুলুন ↗</a></div>
+        <div class="office-map-frame">
+          <iframe class="office-map" title="Expert POS office location in Banani, Dhaka" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.17531926681016!2d90.40824218318508!3d23.78995343311188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6741d8eb6a16f671%3A0x9bfeebf9a6d1ae9a!2sExpert%20Pos!5e0!3m2!1sen!2sbd!4v1787142142071!5m2!1sen!2sbd"></iframe>
+          <div class="office-map-card"><span>EXPERT POS / DHAKA</span><strong>Banani 11</strong><small>Ventura Iconia · Level 3</small><a href="https://www.google.com/maps?q=23.789953,90.408242" target="_blank" rel="noopener noreferrer" data-i18n="mapDirections">দিকনির্দেশনা দেখুন ↗</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-main">
+      <div class="footer-brand"><a href="#top" aria-label="Expert POS home"><img src="images/expertpos-logo-white.png" alt="Expert POS" width="533" height="96" loading="lazy"></a><p data-i18n="footerTagline">Bangladesh-এর business-এর জন্য POS, inventory ও connected workflow।</p><a class="footer-brand-cta" href="#contact" data-i18n="footerDemo">আপনার business-এর demo বুক করুন ↗</a></div>
+      <div class="footer-column"><h2 data-i18n="footerExplore">Explore</h2><a href="#top" data-i18n="footerHome">Home</a><a href="#reviews" data-i18n="navReviews">Client Reviews</a><a href="#industries" data-i18n="navIndustries">Industries</a><a href="#features" data-i18n="navFeatures">Features</a><a href="#contact" data-i18n="footerContact">Contact</a></div>
+      <div class="footer-column"><h2 data-i18n="footerReach">যোগাযোগ</h2><a href="tel:+8801721417203">01721-417203</a><a href="tel:+8801810128451">01810-128451</a><a href="mailto:info@expertpos.xyz">info@expertpos.xyz</a><a href="https://wa.me/8801721417203" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="https://www.google.com/maps?q=23.789953,90.408242" target="_blank" rel="noopener noreferrer" data-i18n="footerMap">Office map ↗</a></div>
+      <div class="footer-column"><h2 data-i18n="footerElsewhere">আরও দেখুন</h2><a href="https://www.facebook.com/profile.php?id=61594565385202" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://b-innovations.com" target="_blank" rel="noopener noreferrer">Byte Innovations ↗</a><a href="https://www.expertpos.xyz/login" target="_blank" rel="noopener noreferrer" data-i18n="footerLogin">Expert POS login ↗</a></div>
+    </div>
+    <div class="shell footer-bottom"><span>© <span id="footerYear">2026</span> Expert POS. <span data-i18n="footerRights">All rights reserved.</span></span><span data-i18n="footerNote">Local design demo · example-based voices</span><a href="#top" data-i18n="footerTop">উপরে যান ↑</a></div>
+  </footer>
+  <div class="floating-actions"><a class="floating-whatsapp" href="https://wa.me/8801721417203" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.4 7.6L3 20.5l1.4-5.1a8.5 8.5 0 1 1 16.1-3.9Z"/><path d="M8.6 8.5c.2 3.1 2.8 5.8 5.9 6 .4 0 .9-.6 1.2-1.3l-2-1-.9 1c-1.2-.5-2-1.3-2.5-2.5l1-.9-1-2c-.7.3-1.3.8-1.7 1.2Z"/></svg><span class="sr-only" data-i18n="floatingWhatsapp">WhatsApp-এ কথা বলুন</span></a><a class="floating-top" href="#top"><span aria-hidden="true">↑</span><span class="sr-only" data-i18n="floatingTop">উপরে যান</span></a></div>
+</body>
+</html>
